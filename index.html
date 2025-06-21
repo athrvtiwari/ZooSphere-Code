@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="websitelogo.ico">
+    <style>
+        body {
+            background-color: #2e8b57; /* Stylish green background */
+            color: white;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        #Hyperlinks, nav {
+            width: 100%;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            box-sizing: border-box;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        #Hyperlinks a {
+            color: #FFD700; /* Bright gold color */
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2em;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            letter-spacing: 0.05em;
+        }
+        #Hyperlinks a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+        a {
+            color:whitesmoke;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Dark background for contrast */
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 20px;
+        }
+        h2, p, a:link {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            letter-spacing: 0.05em;
+        }
+        .rectangle-img {
+            width: 45%;
+            height: auto;
+            margin: 10px;
+            border: 5px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        button {
+          display: inline-block;
+          padding: 12px 24px;
+          margin-top: 20px;
+          background-color: #32a852;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          text-decoration: none;
+          font-size: 1.2em;
+          transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+          cursor: pointer;
+        }
+
+        button:hover {
+           background-color: #f4faf5;
+           color: black;
+            transform: scale(1.05);
+        }
+
+
+        .text-content {
+            flex: 1;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+    <title>Home - ZooSphere</title>
+</head>
+<body>
+    <div id="Hyperlinks">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Our Philosophy - ZooSphere.html">Our Philosophy</a>
+            <a href="Contact Us.html">Contact Us</a>
+            <a href="About Us - ZooSphere.html">About Us</a>
+            <a href="How it Works - ZooSphere.html">How it Works</a>
+            <a href="Connections.html">Connections With ZooSphere</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="text-content">
+            <h1>The Future of the Digital World</h1>
+            <p>The world around is growing swiftly. Technology is rising and is becoming better every moment.
+               What would you think, if you heard that you could have an entire zoo, inside your house?
+            </p>
+            <h2>Introducing: ZooSphere</h2>
+            <p>ZooSphere is a device that extends the digital world. It is augmented reality at its finest, with realistic graphics.
+                What is it exactly, you might ask? Well, it is a projector which is inside of a drone, meaning you can <i>make it project while flying, too.</i>
+                It is a 3-Dimensional projector that releases <a href="Solid Light Atoms - ZooSphere.html"><u><i>solid light atoms</i></u></a> to project any animal you want. 
+                It is starting at ₹15,000. Click on the button below to learn more.
+            </p>
+            <button onclick="openScratch()">Learn More</button>
+        </div>
+        <img src="hologram-zoo.jpg" alt="Hologram Zoo" class="rectangle-img">
+    </div>
+    <script>
+        function openScratch() {
+            window.open('https://scratch.mit.edu/projects/1098695863/', '_blank');
+        }
+    </script>
+    <h1>NOTE: THIS WEBSITE WAS MADE FOR THE NON-COMPETITIVE EVENT OF TECH FEST IN 2024</h1>
+</body>
+</html>

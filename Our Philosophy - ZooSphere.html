@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="websitelogo.ico">
+    <style>
+        body {
+    background: green;
+    color: white;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+#Hyperlinks, nav {
+    width: 100vw;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    animation: fadeIn 2s; /* Smooth fade-in effect */
+}
+
+#Hyperlinks a, nav{
+    color: #FFD700; /* Bright gold color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform for hover effect */
+    letter-spacing: 0.1em;
+}
+
+#Hyperlinks a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.container {
+    max-width: 800px;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    margin: 1em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.circle-image {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    margin: 20px auto;
+}
+
+.circle-image:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+    </style>
+    <title>Our Philosophy - ZooSphere</title>
+</head>
+<body>
+    <div id="Hyperlinks">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Our Philosophy - ZooSphere.html">Our Philosophy</a>
+            <a href="Contact Us.html">Contact Us</a>
+            <a href="About Us - ZooSphere.html">About Us</a>
+            <a href="How it Works - ZooSphere.html">How it Works</a>
+            <a href="Connections.html">Connections With ZooSphere</a>
+        </nav>
+    </div>
+    <div class="container">
+        <h1 class="title">Our Philosophy</h1>
+        <p>Everyday animals are being captured to be put in zoos. 
+            But have you ever thought of how they feel? 
+            We designed a machine that can save them all: 
+            the zoosphere. The zoosphere projects an interactive hologram as any image you can think of: 
+            small, big, living and nonliving. The zoosphere is a small, flying projector mounted on a drone. 
+            This allows the “hologram” to move and interact with viewers. 
+            The zoosphere can help animals be saved from captivity.</p>
+    </div>
+    <div class="circle-image" style="background-image: url('tiger-in-cage.jpg');"></div>
+    <h1>A tiger in a cage</h1>
+    <p>Credits: World Animal Protection</p>
+    <h1>NOTE: THIS WEBSITE WAS MADE FOR THE NON-COMPETITIVE EVENT OF TECH FEST IN 2024</h1>
+</body>
+</html>

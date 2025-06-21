@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="websitelogo.ico">
+    <style>
+        body {
+            background: linear-gradient(135deg, #32a852, #1e3c15);
+            color: white;
+            padding: 5vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #Hyperlinks, nav {
+            width: 100vw;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            box-sizing: border-box;
+            animation: fadeIn 2s;
+        }
+
+        #Hyperlinks a, nav{
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            letter-spacing: 0.1em;
+        }
+
+        #Hyperlinks a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2.5em;
+            margin: 1em 0;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .circular-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .circular-img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        ul li:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #fff;
+            color: #32a852;
+            border: 2px solid #32a852;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #32a852;
+            color: #fff;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+
+        .image-container img {
+            width: 40%;
+            height: auto;
+            margin: 0;
+            border: none;
+            outline: none;
+            box-shadow: none;
+        }
+
+        .image-container img + img {
+            margin-top: -4px; /* Adjust this value to seamlessly join the images */
+        }
+
+    </style>
+    <title>How It Works - ZooSphere</title>
+</head>
+<body>
+    <div id="Hyperlinks">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Our Philosophy - ZooSphere.html">Our Philosophy</a>
+            <a href="Contact Us.html">Contact Us</a>
+            <a href="About Us - ZooSphere.html">About Us</a>
+            <a href="How it Works - ZooSphere.html">How it Works</a>
+            <a href="Connections.html">Connections With ZooSphere</a>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>How It Works</h1>
+        <div id="how-it-works">
+            <ul>
+                <li>First, you choose something and type it on the screen at the back.</li>
+                <li>You can type an animation to make the hologram move.</li>
+                <li>The hologram can be put in any style, such as, it can be colourful, monochrome, colours or just normal.</li>
+                <li>The Zoosphere can be turned off or on with the control panel (which is not connected), where you choose your object.</li>
+            </ul>
+            <div class="image-container">
+                <img src="butterfly.gif" alt="Animated GIF">
+                <img src="inuse.png" alt="Static Image">
+            </div>
+            <h1>Holographic Animal projected by the ZooSphere</h1>
+        </div>
+    </div>
+    <h1>NOTE: THIS WEBSITE WAS MADE FOR THE NON-COMPETITIVE EVENT OF TECH FEST IN 2024</h1>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="websitelogo.ico">
+    <style>
+        body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url('forest\ animals.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke; /* Bright gold color */
+    text-align: center;
+    font-family: 'Verdana', sans-serif; /* Bold and clear font */
+}
+
+#Hyperlinks, nav {
+    width: 100vw;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    animation: fadeIn 2s; /* Smooth fade-in effect */
+}
+
+#Hyperlinks a, nav{
+    color: #FFD700; /* Bright gold color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform for hover effect */
+    letter-spacing: 0.1em;
+}
+
+#Hyperlinks a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+.content {
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.5); /* Medium darkness */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Medium darkness */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    margin: 1em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: transform 0.3s ease;
+    color: #FFD700; /* Bright gold color */
+    animation: bounce 1s infinite; /* Bounce effect */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.circle-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #FFD700; /* Bright gold border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.circle-image:hover {
+    transform: scale(1.1);
+}
+
+.text-content {
+    text-align: left;
+    color: #FFD700; /* Bright gold color */
+}
+
+.name-box, .content-box {
+    transition: transform 0.3s ease;
+}
+
+.name-box h3 {
+    margin: 0;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #FFD700; /* Bright gold color */
+}
+
+.content-box p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+    color: #FFD700; /* Bright gold color */
+}
+
+    </style>
+    <title>About Us - ZooSphere</title>
+</head>
+<body>
+    <div id="Hyperlinks">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Our Philosophy - ZooSphere.html">Our Philosophy</a>
+            <a href="Contact Us.html">Contact Us</a>
+            <a href="About Us - ZooSphere.html">About Us</a>
+            <a href="How it Works - ZooSphere.html">How it Works</a>
+            <a href="Connections.html">Connections With ZooSphere</a>
+        </nav>
+    </div>
+    <div class="content">
+        <h1 class="title">About Us</h1>
+        <div class="profile-container">
+            <div class="profile">
+                <img src="Athrv.jpg" alt="Athrv Tiwari" class="circle-image">
+                <div class="text-content">
+                    <div class="name-box">
+                        <h3>Athrv Tiwari<br>The One Behind the Website</h3>
+                    </div>
+                    <div class="content-box">
+                        <p>An enthusiast for Tennis, programmer in HTML, CSS, JavaScript, and Python, an avid reader, a philomath, and a musician, Athrv Tiwari is a brilliant student. He loves reading books across different genres and he is always eager to learn more. He has collaborated with Kabir Girdhar and Akshay William Balaram to create The Zoosphere.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="Kabir.JPG" alt="Kabir Girdhar" class="circle-image">
+                <div class="text-content">
+                    <div class="name-box">
+                        <h3>Kabir Girdhar<br>Behind The PPT and Animation</h3>
+                    </div>
+                    <div class="content-box">
+                        <p>Kabir Girdhar is a young 10-year-old who loves to play table tennis and is an avid reader. He has played at the national level twice and is ranked 23rd in Haryana State. Kabir is also a keen explorer of nature and has visited over 15 tiger reserves. Additionally, he is a 4th-level certified Trinity guitarist and plays in the band Rockstar Dragons. He has collaborated with Atharv Tiwari and Akshay William Balaram to create The Zoosphere.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="Akshay W.png" alt="Akshay William Balaram" class="circle-image">
+                <div class="text-content">
+                    <div class="name-box">
+                        <h3>Akshay W. Balaram<br>Behind The PPT</h3>
+                    </div>
+                    <div class="content-box">
+                        <p>Akshay William Balaram loves to read and write. He has 3 siblings, 2 sisters and 1 brother and is the 2nd oldest kid in his family. He is 10. He also loves to do arts and crafts. He was born on 24th June 2014. He also loves to eat, and his favorite food is sushi. His favorite colour is blue.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>NOTE: THIS WEBSITE WAS MADE FOR THE NON-COMPETITIVE EVENT OF TECH FEST IN 2024</h1>
+</body>
+</html>
